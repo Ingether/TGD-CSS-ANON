@@ -10,7 +10,7 @@
 ** 관련 문의 ingether@hotmail.com
 */
 
-@import url("https://ingether.github.io/TGD-CSS/CSS/common.css");
+@import url("https://ingether.github.io/TGD-CSS-ANON/CSS/common.css");
 
 @font-face {
     font-family: 'BRRA_R';
@@ -299,17 +299,20 @@ header #header-bar #header-top-notice strong.notice-badge {
     color: #326eaa;
     font-weight: 400;
     font-family: 'BRRA_R';
+    font-size: 0px;
 }
 
 #board-info #viewers-area #viewers:before {
-    content: "잉게더 망령 ";
+    content: "셀 수 없을만큼 많은 잉게더 망령";
     cursor: text;
+    font-size: 14px;
 }
 
 #board-info #viewers-area #viewers:after {
     content: "명 행복행복";
     cursor: text;
 }
+
 
 /* profile border */
 #board-info #board-info-profile-img {
@@ -512,4 +515,8 @@ img,
 header #header-bar #header-menu-right #userDropdown img.profile-img,
 img[src="https://static-cdn.jtvnw.net/chat-badges/broadcaster.png"] {
     display: inline !important;;
+}
+
+#board-info h1 .badge {
+    display: none;
 }

@@ -10,7 +10,7 @@
 ** 관련 문의 ingether@hotmail.com
 */
 
-@import url("https://ingether.github.io/TGD-CSS/CSS/common.css");
+@import url("https://ingether.github.io/TGD-CSS-ANON/CSS/common.css");
 
 /* 이모티콘들 */
 :root {
@@ -470,4 +470,14 @@ img,
 nav#nav > #nav-upper #userDropdown img.profile-img,
 img[src="https://static-cdn.jtvnw.net/chat-badges/broadcaster.png"] {
     display: inline !important;;
+}
+
+/* viewers */
+#board-info #viewers-area .fa,
+#board-info #viewers-area #viewers {
+    display: none !important;
+}
+
+#board-info h1 .badge {
+    display: none;
 }
